@@ -15,13 +15,13 @@ import io.cucumber.java.en.When;
 public class Googlesearch {
 	WebDriver driver;
 	@Given("open an browser")
-	public void open_an_browser() {
+	public void open_an_browser()  {
 	driver = new ChromeDriver();
 	
 	}
 
 	@Given("load the url")
-	public void load_the_url() {
+	public void load_the_url()  {
 	     driver.get("https://www.google.co.in/");
 	}
 
